@@ -1,0 +1,205 @@
+.overall{
+    background-image: url(/images/Cosmic\ Fusion.jpg);
+    height:100vh;
+   }
+   .background{
+       background-size: cover;
+       background-repeat: no-repeat;
+       height: 40vh;
+       border-radius: 20px;
+   
+   }
+
+   .section{
+       margin:0 25%;
+    }
+   h1{
+       color:white;
+       font-family: 'Sacramento', cursive
+   }
+   
+   .input p{
+       display: inline-block;
+       color:black;
+   }
+   .value{
+       border-bottom:1px solid black;
+   }
+   
+   input{
+       border: .5 solid rgba(128, 128, 128, 0.089);
+   }
+   .inputvalidition{
+       display: none;
+   }
+   .inputvalid{
+       display: block;
+   }
+   #title{
+       position: relative;
+       top:-10px;
+       font-size:1.2rem
+   }
+   
+   .active{
+       border:2px solid black;
+   }
+   .black{
+       color:black;
+   }
+   
+   .formvalidation{
+       border:2px solid red;
+   }
+   .filter{
+       cursor: pointer;
+   }
+   .filternone{
+       display:none; 
+   }
+   .list{
+       position: absolute;
+       display:none;
+       margin-top:-10px;
+       background-color: rgb(252, 167, 249);
+       padding:15px;
+       border-radius:10px;
+   }
+   .dropdown{
+       text-align:justify;
+       list-style-type: none;
+       font-size:.8rem;
+       font-weight: 700;
+       padding:10px;
+   }
+   #dropdown:hover{
+       position: absolute;
+       transition:ease-in;
+       color:red;
+   }
+   .filtericon{
+       font-size:1.5rem;
+   }
+   
+   .filteractive{
+       display:block;
+       position: absolute;
+       margin-top:-10px;
+       background-color: rgb(252, 167, 249);
+       padding:15px;
+       border-radius:10px;
+   }
+   
+   .contentdisplay{
+       margin:auto;
+       width:90%;
+       height:60vh;
+       overflow-y:auto;
+       background-color: rgb(255, 255, 255);
+       box-shadow: 1px 1px 1px 1.5px rgba(128, 128, 128, 0.555);
+   }
+   .contenthead h4{
+       font-size:1.2rem;
+   }
+   .searchdiv{
+       display: flex;
+   }
+   #searchinput{
+       display: none;
+   }
+   #crossicon{
+       display: none;
+       font-size: 2.8rem;
+   }
+   .output{
+       height:50%;
+   }
+   
+   #output{
+       list-style-type: none;
+       display: block;
+   }
+   #clear{
+       float: right;
+       position: relative;
+       right: 20px;
+   }
+   #activeoutput{
+       list-style-type: none;
+       display: block;
+   }
+   #completedoutput{
+       list-style-type: none;
+       display: block;
+   }
+   
+   input[type="checkbox"]{
+    display: inline;
+    transform: scale(2);
+    border:1px solid black;
+   }
+   #arrayoutput{
+       position: relative;
+       font-size:1.3rem;
+   }
+   #arroutput{
+       position:relative;
+       font-size:1.4rem;
+       font-weight:700;
+       padding:0 20px;
+       font-family: 'Amatic SC', cursive;
+   }
+   #date{
+       position: relative;
+   }
+
+   
+   #delete{
+       padding:0 20px;
+       float: right;
+   
+   }
+   .edit{
+        padding:0 20px;
+   
+   }
+   .activeoutput{
+       display:none;
+       /* visibility: hidden; */
+   }
+   
+   .searchbar{
+       font-size:1.5rem;
+       visibility: visible;
+   }  
+   .onsearchinput{
+        visibility: visible;
+   }
+   .searchnodate{
+       font-size: 2rem;
+       text-align: center;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 50%;
+   }
+   .searchvalidation{
+       display:none;
+   }
+   .searchvalid{
+       display: none;
+   }
+   .searchvalidationresult{
+       position:absolute;
+       display: block;
+       color:red;
+       font-size: .75rem;
+       padding:5px 20px;
+   }
+   .searchvalidationempty{
+       position:absolute;
+       display: block;
+       color:red;
+       font-size: .75rem;
+       padding:5px 20px;
+   }
